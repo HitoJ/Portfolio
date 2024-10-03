@@ -1,0 +1,37 @@
+/* Background Style */
+body {
+    background: linear-gradient(to bottom, rgba(179, 163, 88, 1), rgba(179, 163, 88, 0.8), rgba(179, 163, 88, 0.6));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* Divider Styling */
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    margin: 20px 0; /* Adjust spacing as needed */
+    opacity: 0.7; /* Slight transparency for a softer look */
+}
+
+/* Custom styling for the link button */
+.link-button {
+    background-color: #5C2818;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.link-button:hover {
+    background-color: #A64B2A;
+    transform: scale(1.05);
+    color: white;
+}
+
+.link-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #A64B2A;
+}
